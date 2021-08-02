@@ -56,6 +56,8 @@ for submission in subreddit.stream.comments(skip_existing=True):  # Checks every
                 index = random.randint(0,9)
                 submission.reply(bot_reply[index])
                 break
+        if "start":
+            submission.reply("Initiating your free trial of Anti-redditpremium. Press Q to learn the disadvantages of having Anti-redditpremium")
 
         id_list.append(submission.id)
 
