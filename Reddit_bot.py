@@ -48,7 +48,7 @@ for submission in subreddit.stream.comments(skip_existing=True):  # Checks every
             if i in comment:
                 numFound+=1
                 print('Bot replying to: ')
-                print("Title: ", submission.body)
+                print("Title: ", submission.body); print("there exists a streak")
                 print("Score: ", submission.score)
                 print("---------------------------------")
                 print('Bot saying: ', "")
