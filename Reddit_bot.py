@@ -13,7 +13,7 @@ cSC= 'EdFZogndMrr10bK4gGNtJhEkRGqv-Q'
 userN = 'Pineaaaapplebot'
 
 userP ='Cougjbd3'
-
+print("I'm desperate for starting the streak")
 numFound = 0
 
 reddit = praw.Reddit(user_agent=userAgent, client_id=cID, client_secret=cSC, username=userN, password=userP)
