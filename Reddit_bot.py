@@ -32,6 +32,7 @@ bot_reply.append("I support Laissez-faire economics, and I will not tolerate the
 bot_reply.append("And when everyone's stupid, no one will be. \n- Mr. Incredible")
 bot_reply.append("With great streaks, comes great desire to bullshit certain days just to keep up said streak. \n- Uncle Ben")
 bot_reply.append("Did you know? Crossing time zones can really mess up your Duolingo streak! \n- Gottfried Leibniz")
+bot_reply.append("I should really start coding")
 
 
 keywords = {'!quote', 'random quote', 'Bruh', 'quote'}  # a set of keywords to find in subreddits
